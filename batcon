@@ -1,0 +1,4 @@
+cd ~/.shortcuts
+python2 batcon.py
+
+
