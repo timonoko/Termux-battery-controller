@@ -1,6 +1,4 @@
-# 15 min timeout
-print('Testing Testing 12')
-
+# Micropython code in the Wifi-plug. It has 15 min timeout if batcon.py dies.
 try:
   import usocket as socket
 except:
