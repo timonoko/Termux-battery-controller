@@ -1,5 +1,5 @@
-
-print('Testing Testing 3')
+# 15 min timeout
+print('Testing Testing 12')
 
 try:
   import usocket as socket
@@ -62,7 +62,6 @@ s.bind(('', 80))
 s.listen(5)
 
 while True:
-#    print("VITUUA")
     if releet[1]==1:
         if (time.time()-d.ajastin)>d.timeout:
             print("TIMEOUT:"+str(time.time())+":"+str(d.ajastin))
